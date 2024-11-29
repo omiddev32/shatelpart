@@ -1,0 +1,11 @@
+permissions:
+
+  - 
+    name: categories
+    order: 14
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete

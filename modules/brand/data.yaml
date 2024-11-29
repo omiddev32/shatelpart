@@ -1,0 +1,11 @@
+permissions:
+
+  - 
+    name: brands
+    order: 27
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete

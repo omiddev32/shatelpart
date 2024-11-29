@@ -1,0 +1,21 @@
+{
+    "Financial services and transactions": "خدمات مالی و تراکنش ها",
+    "There is a problem with the payment gateway": "مشکلی سمت درگاه پرداخت پیش آمده است",
+    "Prakht faced a problem. If the amount has been deducted from your account, the amount deducted will be credited to your account in the next few hours.": "پراخت با مشکل مواجه شد. در صورتی که مبلغ از حساب شما کسر شده باشد، مبلغ کسر شده تا ساعات آینده به حساب شما واریز میگردد.",
+    "Transaction Mode": "حالت تراکنش",
+    "Transaction Number": "شماره تراکنش",
+    "By Management": "توسط مدیریت",
+    "Product Type": "نوع محصول",
+    "Paid At": "تاریخ پرداخت",
+    "Order payment": "پرداخت سفارش",
+    "Gateway": "درگاه",
+    "Pending": "در انتظار",
+    "Success": "موفق",
+    "Failed": "ناموفق",
+    "Canceled": "لغو شده",
+    "Reference Number": "شماره مرجع",
+    "Tracking Code": "کد رهگیری",
+    "Transaction Date": "تاریخ انجام تراکنش",
+    "Transactions": "تراکنش ها",
+    "Transaction": "تراکنش"
+}

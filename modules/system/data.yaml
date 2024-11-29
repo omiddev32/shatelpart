@@ -1,0 +1,69 @@
+permissions:
+
+  - 
+    name: logs
+    order: 40
+    actions:
+      - view.any
+      - view
+      - delete
+  - 
+    name: contentSettings
+    order: 26
+    actions:
+      - view.any
+      - view
+      - update
+data:
+
+  -
+    modelNameSpace: "App\\System\\Entities\\ContentSetting"
+    data:
+      -
+        field: name
+        value: 'صفحه 404'
+      -
+        field: slug
+        value: 'Page-404'
+    findBy:
+      field: slug
+      value: 'Page-404'
+  
+  -
+    modelNameSpace: "App\\System\\Entities\\ContentSetting"
+    data:
+      -
+        field: name
+        value: 'صفحه جستجو یافت نشد'
+      -
+        field: slug
+        value: 'Page-Search-NotFound'
+    findBy:
+      field: slug
+      value: 'Page-Search-NotFound'  
+
+  -
+    modelNameSpace: "App\\System\\Entities\\ContentSetting"
+    data:
+      -
+        field: name
+        value: 'سبد خرید خالی'
+      -
+        field: slug
+        value: 'Empty-Basket'
+    findBy:
+      field: slug
+      value: 'Empty-Basket'
+
+  -
+    modelNameSpace: "App\\System\\Entities\\ContentSetting"
+    data:
+      -
+        field: name
+        value: 'تیکت هنوز ثبت نشده است'
+      -
+        field: slug
+        value: 'Dont-Save-Ticket'
+    findBy:
+      field: slug
+      value: 'Dont-Save-Ticket'

@@ -1,0 +1,14 @@
+permissions:
+
+  - 
+    name: ordersSettings
+    order: 32
+    actions:
+      - update
+
+  - 
+    name: orders
+    order: 40
+    actions:
+      - view.any
+      - view

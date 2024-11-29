@@ -1,0 +1,6 @@
+name: Category
+slug: category
+version: 1.0.0
+order: 8
+enabled : true
+description: This is the description for the Category module.

@@ -1,0 +1,6 @@
+name: System
+slug: system
+version: 1.0.0
+order: 1
+enabled : true
+description: Handles general site configuration for administrators.

@@ -1,0 +1,6 @@
+name: Order
+slug: order
+version: 1.0.0
+order: 11
+enabled : true
+description: This is the description for the Order module.

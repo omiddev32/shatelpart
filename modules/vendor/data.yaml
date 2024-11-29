@@ -1,0 +1,98 @@
+permissions:
+
+  - 
+    name: vendors
+    order: 17
+    actions:
+      - view.any
+      - view
+data:
+
+  -
+    modelNameSpace: "App\\Vendor\\Entities\\Vendor"
+    data:
+      -
+        field: name
+        value: Sharjit
+        isUnique: true
+      -
+        field: service_name
+        value: sharjit
+        isUnique: true
+      -
+        field: priority
+        value: 4
+      -
+        field: currency
+        value: Toman
+      -
+        field: status
+        value: false
+
+    findBy:
+      field: service_name
+      value: sharjit
+  -
+    modelNameSpace: "App\\Vendor\\Entities\\Vendor"
+    data:
+      -
+        field: name
+        value: CySend
+        isUnique: true
+      -
+        field: service_name
+        value: cysend
+        isUnique: true
+      -
+        field: currency
+        value: Euro
+      -
+        field: priority
+        value: 1
+
+    findBy:
+      field: service_name
+      value: cysend
+  -
+    modelNameSpace: "App\\Vendor\\Entities\\Vendor"
+    data:
+      -
+        field: name
+        value: Wallex
+        isUnique: true
+      -
+        field: service_name
+        value: wallex
+        isUnique: true
+      -
+        field: currency
+        value: Toman
+      -
+        field: priority
+        value: 3
+
+    findBy:
+      field: service_name
+      value: wallex  
+
+  -
+    modelNameSpace: "App\\Vendor\\Entities\\Vendor"
+    data:
+      -
+        field: name
+        value: GiftHub
+        isUnique: true
+      -
+        field: service_name
+        value: gifthub
+        isUnique: true
+      -
+        field: currency
+        value: Euro
+      -
+        field: priority
+        value: 2
+
+    findBy:
+      field: service_name
+      value: gifthub

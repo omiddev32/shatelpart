@@ -1,0 +1,42 @@
+permissions:
+
+  - 
+    name: currencies
+    order: 34
+    actions:
+      - view.any
+      - view
+      - update
+  - 
+    name: priceCalculationFormulas
+    order: 35
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+data:
+  -
+    modelNameSpace: "App\\Currency\\Entities\\Currency"
+    data:
+      -
+        field: currency_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "ریال ایران"
+        enValue: "Iranian Rial"
+      -
+        field: iso
+        value: IRR
+        isUnique: true
+      -
+        field: iso_code
+        value: 364
+        isUnique: true
+
+    findBy:
+      field: iso
+      value: IRR

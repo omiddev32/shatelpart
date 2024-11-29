@@ -1,0 +1,6 @@
+name: Wallet
+slug: wallet
+version: 1.0.0
+order: 3
+enabled : true
+description: This is the description for the Wallet module.

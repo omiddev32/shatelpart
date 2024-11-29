@@ -1,0 +1,6 @@
+name: Currency
+slug: currency
+version: 1.0.0
+order: 7
+enabled : true
+description: This is the description for the Currency module.

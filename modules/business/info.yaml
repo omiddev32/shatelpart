@@ -1,0 +1,6 @@
+name: Business
+slug: business
+version: 1.0.0
+order: 12
+enabled : true
+description: This is the description for the Business module.

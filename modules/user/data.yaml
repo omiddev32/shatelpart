@@ -1,0 +1,122 @@
+roles:
+    - 
+      name: مدیر اصلی
+      allPermissions: true    
+    - 
+      name: مدیر
+
+permissions:
+  - 
+    name: admin
+    order: 1
+    actions:
+      - view.dashboard
+  - 
+    name: admins
+    order: 2
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+      - admin  
+  - 
+    name: roles
+    order: 3
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: organizations
+    order: 4
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: users
+    order: 5
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+      - accreditation
+
+data:
+
+  -
+    modelNameSpace: "App\\User\\Entities\\Admin"
+    data:
+      -
+        field: first_name
+        value: امید
+      -
+        field: last_name
+        value: اسلامی
+      -
+        field: username
+        value: omides327
+        isUnique: true
+      -
+        field: email
+        value: oeslami32@gmail.com
+        isUnique: true
+      -
+        field: code
+        value: 5130099281
+        isUnique: true
+      -
+        field: phone_number
+        value: 09172632061
+        isUnique: true
+      -
+        field: password
+        value: $2y$10$ZlLMEqTkm2M8YAiOI31D3ebs0JrvHWPfqR1h55Q3IbZ2zXiJbRmDC
+    findBy:
+      field: username
+      value: omides327
+    isUser: true
+    roles:
+      - mdyr.asly
+  -
+    modelNameSpace: "App\\User\\Entities\\Admin"
+    data:
+      -
+        field: first_name
+        value: Master
+      -
+        field: last_name
+        value: 'Super User'
+      -
+        field: username
+        value: sharjitadmin
+        isUnique: true
+      -
+        field: email
+        value: mysharjit@gmail.com
+        isUnique: true
+      -
+        field: code
+        value: 1111111111
+        isUnique: true
+      -
+        field: phone_number
+        value: 09171111111
+        isUnique: true
+      -
+        field: password
+        value: $2y$10$ZlLMEqTkm2M8YAiOI31D3ebs0JrvHWPfqR1h55Q3IbZ2zXiJbRmDC
+    findBy:
+      field: username
+      value: sharjitadmin
+    isUser: true
+    roles:
+      - mdyr.asly

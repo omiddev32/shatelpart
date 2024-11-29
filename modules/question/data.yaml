@@ -1,0 +1,11 @@
+permissions:
+
+  - 
+    name: questions
+    order: 22
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete

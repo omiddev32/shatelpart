@@ -1,0 +1,190 @@
+permissions:
+
+  - 
+    name: tickets
+    order: 10
+    actions:
+      - view.any
+      - view
+      - referral
+      - close
+      - reply
+  - 
+    name: ticketSettings
+    order: 11
+    actions:
+      - update
+  - 
+    name: ticketCategories
+    order: 12
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: ticketCategoryTopics
+    order: 13
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: ticketCategoryTopicContents
+    order: 14
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: ticketStatuses
+    order: 15
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+
+data:
+
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: open
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "در انتظار پاسخ"
+        
+    findBy:
+      field: name
+      value: open
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: open_by_system
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "باز شده توسط شارژیت"
+        
+    findBy:
+      field: name
+      value: open_by_system
+
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: answered
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "پاسخ داده شده"
+        
+    findBy:
+      field: name
+      value: answered
+
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: waiting
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "در انتظار پاسخ"
+        
+    findBy:
+      field: name
+      value: waiting
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: closed_by_customer
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "بسته شده"
+        
+    findBy:
+      field: name
+      value: closed_by_customer
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: closed_by_admin
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "بسته شده"
+        
+    findBy:
+      field: name
+      value: closed_by_admin
+  -
+    modelNameSpace: "App\\Ticket\\Entities\\TicketStatus"
+    data:
+      -
+        field: name
+        value: closed_automatically
+        isUnique: true
+
+      -
+        field: display_name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "بسته شده"
+        
+    findBy:
+      field: name
+      value: closed_automatically

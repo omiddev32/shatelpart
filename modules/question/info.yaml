@@ -1,0 +1,6 @@
+name: Question
+slug: question
+version: 1.0.0
+order: 25
+enabled : true
+description: This is the description for the Question module.

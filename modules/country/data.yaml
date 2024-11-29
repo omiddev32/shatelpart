@@ -1,0 +1,79 @@
+permissions:
+
+  - 
+    name: countries
+    order: 13
+    actions:
+      - view.any
+      - view
+      - update
+  - 
+    name: provinces
+    order: 14
+    actions:
+      - view.any
+      - view
+      - update  
+  - 
+    name: cities
+    order: 15
+    actions:
+      - view.any
+      - view
+      - update  
+  - 
+    name: zones
+    order: 35
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+
+data:
+
+  -
+    modelNameSpace: "App\\Country\\Entities\\Zone"
+    data:
+      -
+        field: name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "جهانی"
+        enValue: "Global"
+      -
+        field: symbol
+        value: GLB
+        isUnique: true
+      -
+        field: symbol_2
+        value: GL
+        isUnique: true
+    findBy:
+      field: symbol
+      value: GLB
+  -
+    modelNameSpace: "App\\Country\\Entities\\Zone"
+    data:
+      -
+        field: name
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "محلی"
+        enValue: "Local"
+      -
+        field: symbol
+        value: LCL
+        isUnique: true
+      -
+        field: symbol_2
+        value: LC
+        isUnique: true
+    findBy:
+      field: symbol
+      value: LCL

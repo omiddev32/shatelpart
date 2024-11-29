@@ -1,0 +1,6 @@
+name: Country
+slug: country
+version: 1.0.0
+order: 5
+enabled : true
+description: This is the description for the Country module.

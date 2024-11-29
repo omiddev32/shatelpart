@@ -1,0 +1,6 @@
+name: Ticket
+slug: ticket
+version: 1.0.0
+order: 15
+enabled : true
+description: This is the description for the Ticket module.

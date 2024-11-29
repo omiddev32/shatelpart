@@ -1,0 +1,6 @@
+name: Product
+slug: product
+version: 1.0.0
+order: 6
+enabled : true
+description: This is the description for the Product module.

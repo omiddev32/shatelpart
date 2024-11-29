@@ -1,0 +1,163 @@
+permissions:
+
+  - 
+    name: products
+    order: 18
+    actions:
+      - view.any
+      - view
+      - create
+      - update
+      - delete
+  - 
+    name: productsRepository
+    order: 19
+    actions:
+      - view.any
+      - view
+data:
+
+  -
+    modelNameSpace: "App\\Product\\Entities\\DeliveryType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "دیجیتال"
+      -
+        field: slug
+        value: digital
+    findBy:
+      field: id
+      value: 1
+  -
+    modelNameSpace: "App\\Product\\Entities\\DeliveryType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "فیزیکی"
+      -
+        field: slug
+        value: physical
+    findBy:
+      field: id
+      value: 2  
+  -
+    modelNameSpace: "App\\Product\\Entities\\ProductType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "کد پیش پرداخت"
+      -
+        field: slug
+        value: prepaid_code
+    findBy:
+      field: id
+      value: 1  
+  -
+    modelNameSpace: "App\\Product\\Entities\\ProductType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "شارژ مستقیم"
+      -
+        field: slug
+        value: direct_charging
+    findBy:
+      field: id
+      value: 2
+  -
+    modelNameSpace: "App\\Product\\Entities\\ProductType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "پیامک"
+      -
+        field: slug
+        value: sms
+    findBy:
+      field: id
+      value: 3
+  -
+    modelNameSpace: "App\\Product\\Entities\\ProductType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "اشتراک و عضویت ماهانه"
+      -
+        field: slug
+        value: subscription
+    findBy:
+      field: id
+      value: 4
+  -
+    modelNameSpace: "App\\Product\\Entities\\ProductType"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "اعتبار کیف پول"
+      -
+        field: slug
+        value: wallet_credit
+    findBy:
+      field: id
+      value: 5
+  -
+    modelNameSpace: "App\\Product\\Entities\\Using"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "خرید آنلاین"
+      -
+        field: slug
+        value: online_shopping
+    findBy:
+      field: id
+      value: 1
+  -
+    modelNameSpace: "App\\Product\\Entities\\Using"
+    data:
+      -
+        field: title
+        multiLang: true
+        locales:
+          - fa
+          - en
+        faValue: "خرید حضوری"
+      -
+        field: slug
+        value: purchase_in_person
+    findBy:
+      field: id
+      value: 2

@@ -1,0 +1,21 @@
+{
+    "Currencies": "ارز ها",
+    "Currency": "ارز",
+    "Final formulas": "فرمول های نهایی",
+    "Final formula": "فرمول نهایی",
+    "Formula": "فرمول",
+    "Final price calculation formula": "فرمول نهایی محاسبه قیمت",
+    "Starting Price": "شروع قیمت",
+    "Ending Price": "پایان قیمت",
+    "Formula Name": "نام فرمول",
+    "Currency Code": "کد ارز",
+    "Currency Code (Numeric)": "کد ارز (عددی)",
+    "Last Price": "آخرین قیمت",
+    "Transfer rate fee": "کارمزد انتقال ارز",
+    "Unforeseen expenses": "هزینه های پیش بینی نشده",
+    "Profit rate": "نرخ سود",
+    "Select the source currency included": "انتخاب ارز مبدا مشمول",
+    "Select the source currency except": "انتخاب ارز مبدا به جز",
+    "PriceCalculationFormulas": "فرمول های محاسبه قیمت",
+    "Price calculation formulas": "فرمول های محاسبه قیمت"
+}

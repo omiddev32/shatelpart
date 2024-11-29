@@ -1,0 +1,8 @@
+permissions:
+  
+  - 
+    name: transactions
+    order: 28
+    actions:
+      - view.any
+      - view

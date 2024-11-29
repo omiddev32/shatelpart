@@ -1,0 +1,6 @@
+name: Discount
+slug: discount
+version: 1.0.0
+order: 23
+enabled : true
+description: This is the description for the Discount module.

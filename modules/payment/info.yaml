@@ -1,0 +1,6 @@
+name: Payment
+slug: payment
+version: 1.0.0
+order: 4
+enabled : true
+description: This is the description for the Payment module.

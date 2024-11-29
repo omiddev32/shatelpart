@@ -1,0 +1,46 @@
+<?php
+
+namespace {{namespace}}\Settings;
+
+use App\Packages\Settings\Settings;
+use Laravel\Nova\Fields\{Text};
+use Laravel\Nova\Menu\MenuItem;
+use Illuminate\Http\Request;
+
+class {{settingsName}} extends Settings
+{
+    /**
+     * Get the displayable singular label of the tool.
+     *
+     * @return string
+     */
+    public function label()
+    {
+        return __("{{settingsName}}");
+    }
+
+    /**
+     * The model the settings corresponds to.
+     *
+     * @var string
+     */
+    public $model = {{settingsModel}};
+
+    /**
+     * Determine permission access this resource
+     *
+     * @var string
+     */
+    public $permission = '{{settingsPermission}}';
+
+    /**
+     * Get the fields displayed by the resource.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array
+     */
+    public function fields(Request $request)
+    {
+    	return [];
+    }
+}

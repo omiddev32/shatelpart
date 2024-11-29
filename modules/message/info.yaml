@@ -1,0 +1,6 @@
+name: Message
+slug: message
+version: 1.0.0
+order: 30
+enabled : true
+description: This is the description for the Message module.

@@ -1,0 +1,6 @@
+name: Tag
+slug: tag
+version: 1.0.0
+order: 18
+enabled : true
+description: This is the description for the Tag module.
